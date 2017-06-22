@@ -1,0 +1,40 @@
+{
+  "name": "broadview",
+  "version": "1.0.0",
+  "description": "ecommerce-demo",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/broklahoman/Broadview.git"
+  },
+  "keywords": [
+    "ecommerce",
+    "selling",
+    "sneakers",
+    "hype"
+  ],
+  "author": "Jonathan Harris",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/broklahoman/Broadview/issues"
+  },
+  "homepage": "https://github.com/broklahoman/Broadview#readme",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "babel-core": "^6.25.0",
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "mongoose": "^4.10.8",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-router": "^4.1.1"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0"
+  }
+}
