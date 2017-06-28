@@ -1,4 +1,4 @@
-var Article = require("../models/sneakers");
+var Sneaker = require("../models/sneakers");
 
 module.exports = {
   // This method handles retrieving articles from the db
@@ -10,7 +10,7 @@ module.exports = {
     else {
       query = req.params.id ? { _id: req.params.id } : {};
     }
-    Aricle.find(query)
+    Sneaker.find(query)
       .then(function(doc) {
         res.json(doc);
       }).catch(function(err) {
